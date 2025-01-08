@@ -1,0 +1,13 @@
+.brand {
+  font-size: 40px;
+  font-family: Cambria;
+  color: rgb(255, 20, 0);
+  border: 8px rgb(40, 44, 127) solid;
+  background-color: rgb(219, 231, 242);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+}
