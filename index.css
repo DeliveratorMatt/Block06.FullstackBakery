@@ -1,8 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  gap: 2ch;
+  font-size: 2em;
+  justify-content: space-between;
+}
+
 .brand {
   font-size: 40px;
   font-family: Cambria;
   color: rgb(255, 20, 0);
-  border: 8px rgb(40, 44, 127) solid;
+  border: 8px purple solid;
   background-color: rgb(219, 231, 242);
   display: flex;
   justify-content: center;
@@ -11,30 +23,41 @@
 main {
   display: flex;
   gap: 1ch;
-  height: 50vh;
+  flex-grow: 1;
 }
 
 ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: slategray;
-  color: rgb(255, 240, 0);
+  background-color: rgb(169, 180, 192);
+  color: rgb(255, 250, 10);
   border: 8px purple solid;
-  height: 40vh;
   font-size: 28px;
+  padding-right: 8%;
+  padding-top: 5%;
 }
 
 li {
   margin-bottom: 10px;
-  padding-right: 20px;
+  padding-right: 0.5em;
+  padding-left: 0.8em;
+  border: solid black;
 }
 
 .description {
   background-color: burlywood;
-  padding: 2%;
-  border: 8px black solid;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Calibri;
+  font-size: 1.02em;
+  border: 8px purple solid;
   margin: 1em;
+}
+
+.testimonial {
+  background-color: bisque;
+  font-size: 1.5em;
 }
 
 footer {
@@ -46,5 +69,5 @@ footer {
   color: rgb(255, 20, 0);
   border: 8px rgb(40, 44, 127) solid;
   margin: 10px;
-  background-color: rgb(219, 231, 242);
+  background-color: rgb(241, 242, 219);
 }
